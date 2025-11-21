@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #b3a6a6;
+    color: #fff;
+}
+
+header {
+    width: 100%;
+    padding: 20px 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(6px);
+    z-index: 999;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+}
+
+.home-img {
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.img-box {
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid #fff;
+}
+
+.img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.home {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    align-items: baseline;
+}
+
+h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.social {
+    margin-top: 25px;
+}
+
+.social a {
+    display: inline-flex;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    font-size: 22px;
+    margin: 0 8px;
+    color: #fff;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.skill-section{
+    justify-content: left;
+    align-items: normal;
+
+}
+
+h3{
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+li {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 5px;
+}
+
+.social a:hover {
+    background: #fff;
+    color: #000;
+}
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #595e57;
+    color: #fff;
+    margin-top: 20px;
+}
+
+#contact h2 {
+    color: #fff;
+}
+
+.contact-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
